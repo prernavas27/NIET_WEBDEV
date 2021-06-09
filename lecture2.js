@@ -13,10 +13,13 @@ let val=callme();
 
 //
 //callme('steve');
-sayhi();
+
 //call back functions ans high order functions
 let sayhi; //undefined 
-sayhi = function(){
+sayhi = function(a, b){
 console.log('i am saying hii');
+return a*b;
 }  //sayhi can take function 
-//sayhi();
+let a=2;
+let b=5;
+sayhi(a, b);
