@@ -1,25 +1,11 @@
 //function body
-function callme(name){
-    console.log("hi am prerna ");
-    console.log(" hi "+name);
-return 10;
+console.log(add);
+function add(a,b ){
+    return a+b;
 }
-//calling the function
-//console.log(callme());
-//console.log(callme);
-//undefined because it return no value
-let val=callme();
-//console.log(val);
+console.log(x);
+let x=add(10,10);
+console.log(x);
 
-//
-//callme('steve');
 
-//call back functions ans high order functions
-let sayhi; //undefined 
-sayhi = function(a, b){
-console.log('i am saying hii');
-return a*b;
-}  //sayhi can take function 
-let a=2;
-let b=5;
-sayhi(a, b);
+//https://github.com/prernavas27/NIET_WEBDEV.git;
