@@ -21,4 +21,5 @@ let avenger ={
     ]
 }
 console.log(avenger.skills[4].bestfriend);
+nZ7xtaYMwP2bSyT
 
